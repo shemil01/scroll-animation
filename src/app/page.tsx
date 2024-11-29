@@ -12,7 +12,7 @@ export default function Home() {
   useEffect(() => {
     const rows = containerRef.current.querySelectorAll(".row");
 
-    rows.forEach((row, index) => {
+    rows.forEach((row) => {
       const leftImage = row.querySelector(".left");
       const rightImage = row.querySelector(".right");
 
